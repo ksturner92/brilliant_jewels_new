@@ -5,6 +5,14 @@ BrilliantJewelsNew::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
+
+  get "pages/home"
+  get "pages/about"
+  get "pages/contact"
+
+
+
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
@@ -53,4 +61,4 @@ BrilliantJewelsNew::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
+end 
