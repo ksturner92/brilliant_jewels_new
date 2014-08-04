@@ -14,10 +14,8 @@ ActiveAdmin.register Artwork do
   #  permitted
   # end
 
+    permit_params :name, :descr, :medium, :price, :avatar
 
-  def artwork_params
-    params.require(:artwork).permit(:name, :image, :medium, :price, :avatar)
-end
  
   
   form :partial => "layouts/form"  
