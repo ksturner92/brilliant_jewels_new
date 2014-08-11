@@ -19,6 +19,12 @@
   <body>
 
     <%= yield %>
-    <%= javascript_include_tag "application" %>
+       <%= stylesheet_link_tag  "application" %>
+
+     <script src="dist/skrollr.stylesheets.min.js"></script>
+ <script type="text/javascript" src="skrollr.min.js"></script>
+    <script type="text/javascript">
+    var s = skrollr.init();
+    </script>
   </body>
 </html>

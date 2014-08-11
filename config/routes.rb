@@ -8,9 +8,10 @@ BrilliantJewelsNew::Application.routes.draw do
   # root 'welcome#index'
 
 
-  get "pages/home"
-  get "pages/about"
-  get "pages/contact"
+  get "pages/index"
+  get "pages/slide1"
+  get "pages/slide2"
+  get "pages/slide3"
 
 
 

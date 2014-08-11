@@ -27,6 +27,8 @@ gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 
 gem 'foundation-rails'
 
+gem 'skrollr-rails'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
