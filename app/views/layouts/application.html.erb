@@ -21,10 +21,17 @@
     <%= yield %>
        <%= stylesheet_link_tag  "application" %>
 
+      <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation/foundation.js"></script>
+    <script src="js/foundation/foundation.offcanvas.js"></script>
      <script src="dist/skrollr.stylesheets.min.js"></script>
- <script type="text/javascript" src="skrollr.min.js"></script>
+    <script type="text/javascript" src="skrollr.min.js"></script>
     <script type="text/javascript">
     var s = skrollr.init();
     </script>
+
+      <script>
+    $(document).foundation();
+  </script>
   </body>
 </html>
