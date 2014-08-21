@@ -18,12 +18,11 @@ end
 
 gem 'activeadmin', github: 'gregbell/active_admin'
 
-gem 'formtastic', git: 'http://github.com/justinfrench/formtastic.git'
-
 gem 'devise'
 
 gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 
+gem 'formtastic' 
 
 gem 'foundation-rails'
 

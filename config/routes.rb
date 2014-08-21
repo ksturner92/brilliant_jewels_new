@@ -8,12 +8,14 @@ BrilliantJewelsNew::Application.routes.draw do
   # root 'welcome#index'
 
 
-  get "pages/index"
+  root to: 'pages#index'
+
   get "pages/slide1"
   get "pages/slide2"
   get "pages/slide3"
 
 
+  resources :artworks, path: '/admin/artworks'
 
 
   # Example of regular route:
@@ -59,9 +61,8 @@ BrilliantJewelsNew::Application.routes.draw do
   #   resources :photos, concerns: :toggleable
 
   # Example resource route within a namespace:
-  #   namespace :admin do
+    #namespace :admin do
   #     # Directs /admin/products/* to Admin::ProductsController
   #     # (app/controllers/admin/products_controller.rb)
-  #     resources :products
-  #   end
-end 
+    #resources :products
+end

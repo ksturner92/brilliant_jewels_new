@@ -2,7 +2,7 @@
 cab5523e5463a1991d89abb5b49ef461814bb4fd		branch 'djcp-improve-regexes' of git://github.com/thoughtbot/paperclip
 85a90b6eb5991ae5e99d5d15367feaa5c2be25e3		branch 'do-update-readme' of git://github.com/thoughtbot/paperclip
 ed0bc8de5b8545541483bf3eeb6ad89451a908af		branch 'jy-branch' of git://github.com/thoughtbot/paperclip
-dca87ec5d8038b2d436a75ad6119c8eb67b73e70		branch 'master' of git://github.com/thoughtbot/paperclip
+e8c1dc8a26183cf10e5eac7fb29eb7bdcf51d01f		branch 'master' of git://github.com/thoughtbot/paperclip
 a73804da115de618b42f7d5752f57680228aed30		branch 'ps-random-tempfile' of git://github.com/thoughtbot/paperclip
 d1613a6ca1006150746a1404466d9f36141a6cf6		branch 'raise-on-no-content-type-validation' of git://github.com/thoughtbot/paperclip
 e0cc9003d075bc737a3a50bfe30d2df82773028f		branch 'simpler-gentler' of git://github.com/thoughtbot/paperclip
