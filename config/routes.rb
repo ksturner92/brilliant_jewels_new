@@ -17,6 +17,7 @@ BrilliantJewelsNew::Application.routes.draw do
 
   resources :artworks, path: '/admin/artworks'
 
+  get 'artworks/:id', to: 'artworks#show'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
