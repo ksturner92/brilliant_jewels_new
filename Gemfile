@@ -9,12 +9,16 @@ group :development, :test do
 # Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
 	gem 'rspec-rails'
+	gem 'debugger'
 end 
 
 group :test do
 	gem 'selenium-webdriver'
 	gem 'capybara'
 end
+
+
+gem 'sprockets-rails', :require => 'sprockets/railtie'
 
 gem 'activeadmin', github: 'gregbell/active_admin'
 

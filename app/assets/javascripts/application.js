@@ -14,9 +14,10 @@
 //= require jquery_ujs
 //= require foundation
 //= require turbolinks
-//= require_tree .
-
 //= require skrollr
 //= require skrollr.menu
+//= require_tree .
+
+
 
 $(function(){ $(document).foundation(); });

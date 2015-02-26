@@ -1,5 +1,4 @@
-ActiveAdmin.register Artwork do
-
+ActiveAdmin.register Artwork do 
   
   # See permitted parameters documentation:
   # https://github.com/gregbell/active_admin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
@@ -14,14 +13,30 @@ ActiveAdmin.register Artwork do
   #  permitted
   # end
 
-    permit_params :name, :descr, :medium, :price, :avatar
+  permit_params :name, :descr, :medium, :price, :avatar
 
  
   
   form :partial => "layouts/form"  
-end
 
+  show do |artwork|
+    attributes_table do
+      row :name
+      row :descr
+      row :medium
+      row :price
+      row :avatar do
+        image_tag(artwork.avatar.url, height: '300')
+      end
+    end
+  end
 
+  filter :name
+  filter :medium
+  filter :created_at
+  filter :price
+  filter :descr
+end  
 
  
   
