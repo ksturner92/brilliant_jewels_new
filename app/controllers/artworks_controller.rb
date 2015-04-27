@@ -13,7 +13,7 @@ class ArtworksController < ApplicationController
 	end
 
 	def create
-  		@artwork = Artwork.create( artwork_params )
+  		@artwork = Artwork.create(artwork_params)
 
   		@artwork.save
 	end

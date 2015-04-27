@@ -1,4 +1,4 @@
-<%= semantic_form_for ([:admin, @artwork]), url: admin_artwork_path, :multipart => true do |f| %>
+<%= semantic_form_for ([:admin, @artwork]), :multipart => true do |f| %>
 	<%= f.inputs :name, :descr, :medium, :price %>
 	<%=f.input :avatar, :as => :file, :hint => f.template.image_tag(f.object.avatar.url(:thumb)), required: false %>
     <%= f.submit %>
